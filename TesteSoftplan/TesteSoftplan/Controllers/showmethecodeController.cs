@@ -13,8 +13,8 @@ namespace TesteSoftplan.Controllers
     [ApiController]
     public class showmethecodeController : ControllerBase
     {
-        JurosService service;
-        public showmethecodeController(JurosService service)
+        IJurosService service;
+        public showmethecodeController(IJurosService service)
         {
             this.service = service;
         }

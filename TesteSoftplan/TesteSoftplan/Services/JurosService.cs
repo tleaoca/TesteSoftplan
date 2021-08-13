@@ -7,7 +7,7 @@ using TesteSoftplan.Data;
 
 namespace TesteSoftplan.Services
 {
-    public class JurosService
+    public class JurosService : IJurosService
     {
 
         public string retornarUrl(string urlGithub)
