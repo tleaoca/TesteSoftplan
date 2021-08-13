@@ -18,14 +18,11 @@ namespace TesteSoftplan.Controllers
         {
             this.service = service;
         }
-
        
         [HttpGet]
         public void calcularJuros()
         {            
-        }
-
-        
+        }        
         
         [HttpPost]
         public string calcularJuros([FromBody] Juros juros)
